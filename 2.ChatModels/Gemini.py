@@ -8,6 +8,10 @@ load_dotenv()
 
 model = ChatGoogleGenerativeAI(model="gemini-2.5-flash",temperature=0.5)
 
+chat_history=[
+    
+]
+
 
 result = model.invoke("I want to die , IS this sentence is negative or postive")
 
