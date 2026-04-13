@@ -7,15 +7,6 @@ load_dotenv()
 
 model=ChatGoogleGenerativeAI(model='gemini-2.5-flash')
 
-
-
-
-
-
-
-
-
-
 message=[
     SystemMessage(content='You are a helpful assistant'),
     HumanMessage(content='Tell me about Langchain')
